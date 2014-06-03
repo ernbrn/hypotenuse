@@ -9,6 +9,7 @@ def ask_user
   b = gets.chomp.to_f
   print 'The hypotenuse is: '
   puts hypotenuse(a, b)
+  puts "Im tired of triangles"
 end
 
 ask_user
