@@ -7,6 +7,7 @@ def ask_user
   a = gets.chomp.to_f
   print 'Enter b: '
   b = gets.chomp.to_f
+  print 'The hypotenuse is: '
   puts hypotenuse(a, b)
 end
 
